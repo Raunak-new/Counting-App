@@ -1,0 +1,55 @@
+.Counter-Container{
+	text-align: center;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.Counter-Display{
+	font-size: 10em;
+	margin-top: 00;
+	margin-bottom: 50px;
+}
+.Counter-Button{
+	width: 150px;
+	height: 50px;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0px 5px;
+	background-color: rgb(47, 211, 159);
+	color:azure;
+	border: none;
+	border-radius: 5px;
+	cursor:pointer;
+
+}
+/* Button hover animation */
+.Counter-Button:hover {
+	transform: scale(1.15) rotate(3deg);
+	background: #cfcfcf;
+}
+
+/* Button press (active) animation */
+.Counter-Button:active {
+	transform: scale(0.9);
+}
+
+/* Special colors for specific buttons */
+.Counter-Button:nth-child(1) {
+	background: #ff6666;
+}
+.Counter-Button:nth-child(1):hover {
+	background: #ff4444;
+}
+
+.Counter-Button:nth-child(2) {
+	background: #ffcc66;
+}
+.Counter-Button:nth-child(2):hover {
+	background: #ffbb33;
+}
+
+.Counter-Button:nth-child(3) {
+	background: #66ff99;
+}
+.Counter-Button:nth-child(3):hover {
+	background: #33ff77;
+}
